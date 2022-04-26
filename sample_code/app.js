@@ -32,7 +32,6 @@ app.post("/", function (req, res) {
       operator = divide;
       break;
   }
-  console.log(calculator(num1, num2, operator));
   res.send(`<h2> the result is : ${calculator(num1, num2, operator)}</h2>` );
 });
 
